@@ -6,14 +6,14 @@ it:
         sms: "SMS"
     attributes:
       verification:
-        residence:
+        residence: 
           document_type: "Tipo Documento di identità"
           document_number: "N. Documento"
           date_of_birth: "Data di nascita"
           postal_code: "CAP"
         sms:
           phone: "Telefono"
-          confirmation_code: "Codice di conferma"
+          confirmation_code: "Coodice di conferma"
         email:
           recipient: "Email"
       officing/residence:
