@@ -1,6 +1,6 @@
 it:
   activerecord:
-    models:
+    models: 
       activity:
         one: "attività"
         other: "attività"
