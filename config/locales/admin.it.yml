@@ -2,7 +2,7 @@
 en:
   admin:
     header:
-      title: Administration
+      title: Amministrazione
     actions:
       actions: Actions
       confirm: Are you sure?
