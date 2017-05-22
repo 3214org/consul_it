@@ -4,79 +4,79 @@ en:
     header:
       title: Amministrazione
     actions:
-      actions: Actions
-      confirm: Are you sure?
-      confirm_hide: Confirm
-      hide: Hide
-      hide_author: Hide author
-      restore: Restore
-      mark_featured: Featured
-      unmark_featured: Unmark featured
-      edit: Edit
-      configure: Configure
+      actions: Azioni
+      confirm: Sei sicuro?
+      confirm_hide: Conferma
+      hide: Nascondi
+      hide_author: Nascondi autore
+      restore: Ripristina
+      mark_featured: Evidenza
+      unmark_featured: Togli evidenza
+      edit: Modifica
+      configure: Configura
     banners:
       index:
         title: Banners
-        create: Create banner
-        edit: Edit banner
-        delete: Delete banner
+        create: Crea banner
+        edit: Modifica banner
+        delete: Cancella banner
         filters:
-          all: All
-          with_active: Active
-          with_inactive: Inactive
-        preview: Preview
+          all: Tutto
+          with_active: Attivo
+          with_inactive: Inattivo
+          preview: Anteprima
       banner:
-        title: Title
-        description:  Description
+        title: Titolo
+        description:  Descrizione
         target_url:  Link
-        style: Style
-        image: Image
-        post_started_at: Post started at
-        post_ended_at: Post ended at
+        style: Stile
+        image: Immagine
+        post_started_at: Articolo iniziato il 
+        post_ended_at: Articolo finito il
       edit:
-        editing: Edit banner
+        editing: Modifica banner
         form:
-          submit_button: Save changes
+          submit_button: Salva cambiamenti
       errors:
         form:
           error:
-            one: "prevented this banner from being saved"
-            other: 'prevented this banner from being saved'
+            one: "problema nel salvataggio del banner"
+            other: 'problema nel salvataggio del banner'
       new:
-        creating: Create banner
+        creating: Crea banner
     activity:
       show:
-        action: Action
+        action: Azione
         actions:
-          block: Blocked
-          hide: Hidden
-          restore: Restored
-        by: Moderated by
-        content: Content
-        filter: Show
+          block: Bloccata
+          hide: Nascosta
+          restore: Ripristinata
+        by: Moderato da
+        content: Contenuto
+        filter: Mostra
         filters:
-          all: All
-          on_comments: Comments
-          on_debates: Debates
-          on_proposals: Proposals
-          on_users: Users
-        title: Moderator activity
-        type: Type
+          all: Tutti
+          on_comments: Commenti
+          on_debates: Dibattiti
+          on_proposals: Proposte
+          on_users: Utenti
+        title: Attività del Moderatore
+        type: Tipo
     budgets:
       index:
-        title: Participatory budgets
-        new_link: Create new budget
+        title: Bilanci partecipativi
+        new_link: Crea un nuovo bilancio
         filters:
-          current: Open
-          finished: Finished
-        budget_investments: See budget investments
-        table_name: Name
-        table_phase: Phase
-        table_investments: Investments
-        table_edit_groups: Headings groups
-        table_edit_budget: Edit
-        edit_groups: Edit headings groups
-        edit_budget: Edit budget
+          current: Aperto
+          finished: Finito
+        budget_investments: Guarda gli investimenti di bilancio
+        table_name: Nome
+        table_phase: Fase
+        table_investments: Investmenti
+        table_edit_groups: Gruppi di intestazioni
+        table_edit_budget: Modifica
+        edit_groups: Modifica gruppi di intestazioni
+        edit_budget: Modifica bilancio
       create:
         notice: New participatory budget created successfully!
       update:
