@@ -1,20 +1,20 @@
 ---
-en:
+it:
   verification:
     alert:
-      lock: You have reached the maximum number of attempts. Please try again later.
-    back: Return to my account
+      lock: Hai raggiunto il numero massimo di tentativi. Prova di nuovo più tardi.
+    back: Torna al mio account
     email:
       create:
         alert:
-          failure: There was a problem with sending an email to your account
+          failure: Impossibile inviare email al tuo account
         flash:
-          success: 'We have sent a confirmation email to your account: %{email}'
+          success: 'Abbiamo inviato una email di conferma al tuo account: %{email}'
       show:
         alert:
-          failure: Verification code incorrect
-        flash:
-          success: You are a verified user
+          failure: Codice di verifica errato
+          flash:
+          success: Sei un utente verificato
     letter:
       alert:
         unconfirmed_code: You have not yet entered the confirmation code
