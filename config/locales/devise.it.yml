@@ -3,21 +3,21 @@
 en:
   devise:
     password_expired:
-      expire_password: "Password expired"
-      change_required: "Your password is expired"
-      change_password: "Change your password"
-      new_password: "New password"
-      updated: "Password successfully updated"
+      expire_password: "password scaduta"
+      change_required: "La tua password è scaduta"
+      change_password: "Cambia la tua password"
+      new_password: "Nuova password"
+      updated: "Password aggiornata con successo"
     confirmations:
-      confirmed: "Your account has been confirmed."
-      send_instructions: "In a few minutes you will receive an email containing instructions on how to reset your password."
-      send_paranoid_instructions: "If your email address is in our database, in a few minutes you will receive an email containing instructions on how to reset your password."
+      confirmed: "Il tuo account è stato confermato."
+      send_instructions: "In pochi minuti riceverai una email contenente le istruzioni su come cambiare la tua password."
+      send_paranoid_instructions: "Se il tuo indirizzo email è nel nostro database, in pochi minuti riceverai una email containing instructions on how to reset your password contenente le istruzioni su come cambiare la tua password.
     failure:
-      already_authenticated: "You are already signed in."
-      inactive: "Your account has not yet been activated."
-      invalid: "Invalid %{authentication_keys} or password."
-      locked: "Your account has been locked."
-      last_attempt: "You have one more attempt remaining before your account is blocked."
+      already_authenticated: "Sei già autenticato sul sito."
+      inactive: "Il tuo account non è ancora stato attivato."
+      invalid: "Password o %{authentication_keys} non valide."
+      locked: "Il tuo account è stato bloccato."
+      last_attempt: "Hai ancora un tentativo prima che il tuo account venga bloccato."
       not_found_in_database: "Invalid %{authentication_keys} or password."
       timeout: "Your session has expired. Please sign in again to continue."
       unauthenticated: "You must sign in or register to continue."
